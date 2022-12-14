@@ -13,7 +13,7 @@ public class Clock
          if(nowSec != prevSec)
          {
             System.out.println(now.getHour() + " : " +
-               now.getMinute() + " : " + nowSec);
+                    now.getMinute() + " : " + nowSec);
             prevSec = nowSec;
          }
       }

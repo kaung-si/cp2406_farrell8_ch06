@@ -15,16 +15,16 @@ public class BankBalanceByRateAndYear
       System.out.print("Enter initial bank balance > ");
       initialBalance = keyboard.nextDouble();
       keyboard.nextLine();
-      for(interest = LOW; interest <= HIGH; interest += INCREMENT) 
+      for(interest = LOW; interest <= HIGH; interest += INCREMENT)
       {
          balance = initialBalance;
          System.out.println("\nWith an intial balance of $" +
-            balance + " at an interest rate of " + interest);
+                 balance + " at an interest rate of " + interest);
          for(year = 1; year <= MAX_YEAR; ++ year)
          {
             balance = balance + balance * interest;
             System.out.println("After year " + year +
-               " balance is $" + balance);
+                    " balance is $" + balance);
          }
       }
    }

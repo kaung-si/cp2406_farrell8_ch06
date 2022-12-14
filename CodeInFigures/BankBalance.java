@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Scanner;
 public class BankBalance
 {
    public static void main(String[] args)
@@ -18,10 +19,10 @@ public class BankBalance
       {
          balance = balance + balance * INT_RATE;
          System.out.println("After year " + year + " at " +  INT_RATE +
-             " interest rate, balance is $" + balance);
+                 " interest rate, balance is $" + balance);
          year = year + 1;
          System.out.println("\nDo you want to see the balance " +
-            "at the end of another year?");
+                 "at the end of another year?");
          System.out.print("Enter 1 for yes");
          System.out.print("   or any other number for no >> ");              response = keyboard.nextInt();
       }
